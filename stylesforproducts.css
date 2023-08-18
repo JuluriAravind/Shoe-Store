@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: sans-serif;
+    padding: 3px;
+}
+table{
+    width: 100%;
+}
+.header.c1{
+    text-align: center;
+    margin:5px auto;
+}
+#home h1 span{
+    color: cornflowerblue;
+}
+h2{
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 10px black;
+    font-weight: bolder;
+    width:450px;
+    margin: 2%;
+}
+#end h2{
+background:linear-gradient(90deg,darkgrey,black,darkgrey);
+}
+img{
+    box-shadow: 0 0 10px black;
+    border-radius:5%;
+}
+td{
+    text-align: center;
+}
+#Team_Blog{
+    margin: 3%;
+    
+}
+#Team_Blog .distance1{
+    margin-top: 3%;
+    display: flex;
+    margin-bottom: 3%;
+}
+.effect{
+    overflow: hidden;
+}
+#Team_Blog .effect img{
+    object-fit: cover;
+   
+}
+.effect img:hover{
+    transform: scale(1.2);
+}
+.distance{
+    display: flex;
+    margin-top: 3%s;
+}
+.first{
+    font-weight: bolder;
+    font-size: x-large;
+}
