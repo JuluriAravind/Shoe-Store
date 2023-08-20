@@ -60,6 +60,9 @@
 			text-decoration: none;
 			
 		}
+		.cls{
+			display:inline;
+		}
 		/*Responsive*/
 		@media (max-width:900px){
 			.form-control{
@@ -71,13 +74,12 @@
 				
 			}
 			.style{
-				width: 50%;
+				width: 60%;
 				color: #0097b2;
 				padding: 3%;
 				box-shadow: 0 0 10px black	;
 				background-color: white;
-				margin-left:10% ;
-				margin-top: 5%;
+				margin: 4% auto ;
 				}
 				.btn{
 
@@ -105,13 +107,12 @@
 				
 			}
 			.style{
-				width: 60%;
+				width: 80%;
 				color: #0097b2;
 				padding: 3%;
 				box-shadow: 0 0 10px black	;
 				background-color: white;
-				margin-left:8% ;
-				margin-top: 5%;
+				margin: 4% auto ;
 				}
 			.btn{
 
