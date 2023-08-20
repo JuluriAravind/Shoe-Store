@@ -23,9 +23,6 @@ h2{
     width:450px;
     margin: 2%;
 }
-#end h2{
-background:linear-gradient(90deg,darkgrey,black,darkgrey);
-}
 img{
     box-shadow: 0 0 10px black;
     border-radius:5%;

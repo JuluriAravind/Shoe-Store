@@ -2,8 +2,8 @@
 			
 			background-size: 100%;
 			box-sizing: border-box;
-			background-color: #f7ded3;
-		}
+			background-color:rgba(0, 151, 178,0.2);
+			}
 		.style{
 			font-family: arial;
 			width: 30%;
@@ -11,8 +11,7 @@
 			padding: 5%;
 			box-shadow: 0 0 10px black	;
 			background-color: white;
-			margin-left:20% ;
-			margin-top: 5%;
+			margin: 4% auto ;
 			}
 		form{
 			justify-content: center;
@@ -72,7 +71,7 @@
 				
 			}
 			.style{
-				width: 60%;
+				width: 50%;
 				color: #0097b2;
 				padding: 3%;
 				box-shadow: 0 0 10px black	;
@@ -90,5 +89,44 @@
 					width: 30%;
 					font-size: 1.2rem;
 			}
+			.style h2{
+				font-size: 2rem;
+				text-align: center;
+			}
+		}
+		@media (max-width:600px){
+			.form-control{
+				
+				font-size: 1rem;
+				height: 8%;
+				width: auto;
+				display: flex;
+				width: 70%;
+				
+			}
+			.style{
+				width: 60%;
+				color: #0097b2;
+				padding: 3%;
+				box-shadow: 0 0 10px black	;
+				background-color: white;
+				margin-left:8% ;
+				margin-top: 5%;
+				}
+			.btn{
+
+					margin: 5% auto ;
+					background: #007286;
+					color: white;
+					border: none;
+					box-shadow: 0px 5px 10px antiquewhite;
+					width: 15%;
+					font-size: 1rem;
+				}
+			.style h2{
+				font-size: 1rem;
+				text-align: center;
+			}
+			
 		}
 	
