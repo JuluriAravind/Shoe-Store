@@ -3,14 +3,13 @@ html{
 }
 body{
     font-family: sans-serif;
-    padding: 3px;
+    padding: 0.5rem;
 }
 table{
     width: 100%;
 }
 .header.c1{
     text-align: center;
-    margin:5px auto;
 }
 #home h1 span{
     color: cornflowerblue;
@@ -20,8 +19,10 @@ h2{
     color: black;
     box-shadow: 0 0 10px black;
     font-weight: bolder;
-    width:450px;
+    width:30%;
     margin: 2%;
+    font-size: 2rem;
+
 }
 img{
     box-shadow: 0 0 10px black;
@@ -30,30 +31,20 @@ img{
 td{
     text-align: center;
 }
-#Team_Blog{
-    margin: 3%;
-    
-}
-#Team_Blog .distance1{
-    margin-top: 3%;
-    display: flex;
-    margin-bottom: 3%;
-}
-.effect{
-    overflow: hidden;
-}
-#Team_Blog .effect img{
-    object-fit: cover;
-   
-}
-.effect img:hover{
-    transform: scale(1.2);
-}
-.distance{
-    display: flex;
-    margin-top: 3%s;
-}
 .first{
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 1.5rem;
+}
+/*responsive*/
+@media (max-width:7680px ){
+    h2{
+        font-size: 1.5rem;
+    }
+
+}
+@media (max-width:400px ){
+     
+    h2{
+        font-size: 1rem;
+    }
 }
